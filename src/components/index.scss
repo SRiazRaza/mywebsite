@@ -522,10 +522,9 @@ $post-titles-font: 'Open Sans';
 .emoji-icon {
   display: inline;
   margin: 0;
-  margin-top: 1px;
+  //margin-top: 1px;
   position: relative;
-
-  width: 17px;
+  //width: 17px;
   top: 3px;
 
   @include breakpoint(sm) {
