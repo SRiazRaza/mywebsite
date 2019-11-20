@@ -133,7 +133,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Riaz RAza',
+        name: 'Riaz Raza',
         short_name: 'RIaz',
         start_url: '/',
         background_color: '#1976d2',
