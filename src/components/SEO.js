@@ -14,16 +14,16 @@ export default class SEO extends PureComponent {
   }
 
   static defaultProps = {
-    title: 'Dante Calderón',
+    title: 'Riaz Raza',
     image: `https://dantecalderon.com${avatar}`,
     url: 'https://dantecalderon.com/',
-    description: 'Dante Hemerson Calderón Vasquez - Programador',
+    description: 'Syed Riaz Raza - Cognitive Software Engineer',
     isPost: false
   }
 
   render() {
     const { image, url, description, isPost } = this.props
-    const title = (this.props.title === '' ? '' : `${this.props.title} · `) + 'Dante Calderón'
+    const title = (this.props.title === '' ? '' : `${this.props.title} · `) + 'Riaz Raza'
     const schemaOrgJSONLD = [
       {
         '@context': 'http://schema.org',
