@@ -1,6 +1,6 @@
 import { graphql } from 'gatsby'
 import React from 'react'
-import Header from '../components/Home/HeaderHome'
+import Headera from '../components/Home/HeaderHome'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { pages } from '../utils'
@@ -9,9 +9,9 @@ class Index extends React.Component {
   render() {
     const { siteUrl } = this.props.data.site.siteMetadata
     return (
-      <Layout location={this.props.location} active={pages.home}>
+     <Layout location={this.props.location} active={pages.home}>
         <SEO title="" url={siteUrl} />
-        <Header />
+        <Headera />
         <div
           style={{
             background: '#22292c',
