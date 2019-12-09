@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import { media } from '../../styles'
 import { pages } from '../../utils'
 import styled from 'styled-components'
+import grain_image from '../../assets/images/grain.png'
 
 
 const Container = styled.div`
