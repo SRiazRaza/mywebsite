@@ -1,9 +1,11 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import { graphql, StaticQuery } from 'gatsby'
+
 import { media } from '../styles'
+
 import { pages } from '../utils'
-import styled from 'styled-components'
+
 
 
 const Container = styled.div`
@@ -43,9 +45,12 @@ const MainInfoWrapper = styled.div`
   // width: 70%;
 `
 
-
+const RotationalWrapper = styled.div`
+  padding: 0 20px;
+`
 const picture =styled.Img`
-src:
+
+
 `
 const Subtitle = styled.h2`
   font-size: 18px;
@@ -68,8 +73,7 @@ const About = ({ data }) => (
         <Title>{data.site.siteMetadata.title}</Title>
         <Subtitle>{data.site.siteMetadata.subtitle}</Subtitle>
        
-        <Img avatar={data.ab} />
-
+       
       </MainInfoWrapper>
 
       
