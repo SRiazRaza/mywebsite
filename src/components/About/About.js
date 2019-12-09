@@ -3,7 +3,7 @@ import Img from 'gatsby-image'
 import { graphql, StaticQuery } from 'gatsby'
 import get from 'lodash/get'
 import { media } from '../../styles'
-import { pages } from '../utils'
+import { pages } from '../../utils'
 
 
 
