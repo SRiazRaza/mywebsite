@@ -1,9 +1,9 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
-import get from 'lodash/get'
+//import get from 'lodash/get'
 
-import SEO from '../components/SEO'
+import SEO from './SEO'
 import Layout from '../components/Layout'
 //import Stack from '../components/Stack'
 import Header from '../components/Header'

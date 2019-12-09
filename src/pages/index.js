@@ -1,6 +1,8 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import Headera from '../components/Home/HeaderHome'
+import About from '../components/About'
+
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { pages } from '../utils'
@@ -18,7 +20,7 @@ class Index extends React.Component {
             height: '200px'
           }}
         />
-       <Headera />
+       <About />
       </Layout>
     )
   }
