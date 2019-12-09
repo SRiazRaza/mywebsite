@@ -18,6 +18,7 @@ class Index extends React.Component {
             height: '200px'
           }}
         />
+       <Headera />
       </Layout>
     )
   }
