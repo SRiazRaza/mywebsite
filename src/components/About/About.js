@@ -1,9 +1,8 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import { graphql, StaticQuery } from 'gatsby'
-
+import get from 'lodash/get'
 import { media } from '../../styles'
-
 import { pages } from '../utils'
 
 
@@ -54,7 +53,7 @@ const Subtitle = styled.h2`
   color: #1976d2;
 `
 
-const RAbout = ({ data }) => (
+const About = ({ data }) => (
   <div
     style={{
       background: '#f3f3f3',
@@ -69,7 +68,7 @@ const RAbout = ({ data }) => (
        
       </MainInfoWrapper>
 
-      <Img fixed={this.props.data.RAbout}  />
+      <Img sizes={this.props.data.aboutImage.sizes} />
 
     </Container>
   </div>
@@ -80,7 +79,7 @@ export default props => (
   query={graphql`
   query Queryabout{
 
-    about-Image: imageSharp(fluid: { originalName: { regex: "/about-image.jpg/" } }) {
+    aboutImage: imageSharp(fluid: { originalName: { regex: "/about-image.jpg/" } }) {
       sizes(maxWidth: 1000) {
         ...GatsbyImageSharpSizes_tracedSVG
       }
@@ -93,7 +92,7 @@ export default props => (
     }
   }
 `}
-render={data => <RAbout data={data} {...props} />}
+render={data => <About data={data} {...props} />}
 
 />
 )
