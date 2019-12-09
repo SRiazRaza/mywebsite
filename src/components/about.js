@@ -1,13 +1,12 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
-//import get from 'lodash/get'
+import get from 'lodash/get'
 
 import SEO from './SEO'
 import Layout from '../components/Layout'
-//import Stack from '../components/Stack'
+
 import Header from '../components/Header'
-//import AllSocial from '../components/About/AllSocial'
 
 import { pages } from '../utils'
 
@@ -61,8 +60,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-          //<Stack />
-         // <AllSocial />
+       
         </div>
       </Layout>
     )
