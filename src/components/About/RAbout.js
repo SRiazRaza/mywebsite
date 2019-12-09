@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import { graphql, StaticQuery } from 'gatsby'
 
-import { media } from '../styles'
+import { media } from '../../styles'
 
 import { pages } from '../utils'
 
@@ -45,13 +45,6 @@ const MainInfoWrapper = styled.div`
   // width: 70%;
 `
 
-const RotationalWrapper = styled.div`
-  padding: 0 20px;
-`
-const picture =styled.Img`
-
-
-`
 const Subtitle = styled.h2`
   font-size: 18px;
   font-weight: 600;
@@ -61,7 +54,7 @@ const Subtitle = styled.h2`
   color: #1976d2;
 `
 
-const About = ({ data }) => (
+const RAbout = ({ data }) => (
   <div
     style={{
       background: '#f3f3f3',
@@ -76,7 +69,7 @@ const About = ({ data }) => (
        
       </MainInfoWrapper>
 
-      
+      <Img fixed={this.props.data.RAbout}  />
 
     </Container>
   </div>
@@ -85,10 +78,10 @@ const About = ({ data }) => (
 export default props => (
   <StaticQuery
   query={graphql`
-  query{
+  query Queryabout{
 
-    aboutImage: imageSharp(fluid: { originalName: { regex: "/about-image.jpg/" } }) {
-      sizes(maxWidth: 960) {
+    about-Image: imageSharp(fluid: { originalName: { regex: "/about-image.jpg/" } }) {
+      sizes(maxWidth: 1000) {
         ...GatsbyImageSharpSizes_tracedSVG
       }
     }
@@ -100,7 +93,7 @@ export default props => (
     }
   }
 `}
-render={data => <about data={data} {...props} />}
+render={data => <RAbout data={data} {...props} />}
 
 />
 )
