@@ -69,7 +69,7 @@ const About = ({ data }) => (
        
       </MainInfoWrapper>
 
-      <Img sizes={this.props.data.aboutImage.sizes} />
+  
 
     </Container>
   </div>

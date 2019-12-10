@@ -1,10 +1,8 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
 import Navbar from './Navbar'
 import Footer from './Footer'
 import { ThemeProvider } from 'styled-components'
-
 import 'react-awesome-button/src/styles/styles.scss'
 import './index.scss'
 import { GlobalStyles, defaultTheme } from '../styles'
@@ -13,7 +11,7 @@ class Layout extends React.Component {
   componentDidMount() {
     require('@webcomponents/custom-elements/custom-elements.min.js')
   }
-
+  
   render() {
     const { simple, active } = this.props
     return (
