@@ -6,7 +6,7 @@ import { media } from '../../styles'
 import { pages } from '../../utils'
 import styled from 'styled-components'
 import grain_image from '../../assets/images/grain.png'
-
+import about_image from '../../assets/images/about-image.png'
 
 const Container = styled.div`
   min-height: 600px;
@@ -65,13 +65,9 @@ const About = ({ data }) => (
       <MainInfoWrapper>
         <Title>{data.site.siteMetadata.title}</Title>
         <Subtitle>{data.site.siteMetadata.subtitle}</Subtitle>
-       
-       
       </MainInfoWrapper>
-
-  
-
     </Container>
+    <img src={about_image} className="about-logo" alt="logo" />
   </div>
 )
 
