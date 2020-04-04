@@ -7,6 +7,8 @@ import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 import { pages } from '../utils'
 
+
+
 class Index extends React.Component {
   render() {
     const { siteUrl } = this.props.data.site.siteMetadata

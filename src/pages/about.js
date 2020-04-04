@@ -11,6 +11,7 @@ import Header from '../components/Header'
 
 import { pages } from '../utils'
 
+
 class About extends React.Component {
   render() {
     const siteUrl = get(this, 'props.data.site.siteMetadata.siteUrl')
@@ -18,6 +19,13 @@ class About extends React.Component {
       <Layout location={this.props.location} active={pages.about}>
         <div className="About">
           <SEO title="About" url={`${siteUrl}/about`} />
+          <FlickrHero
+          api_key="1b4e5b0203fab0d5731afe68f0a543e1"
+          user_id="132343752@N06"
+          album_id="72157694825254121"
+          fillPage
+         />
+          <HeroText />
           <Header
             title="ABOUT"
             description="Hi, I'm Dante Calderón, web developer. I like to build things with Nodejs and I work with React, Redux, Gatsby, Nextjs and the entire React ecosystem."
