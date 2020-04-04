@@ -4,7 +4,7 @@ import Typist from 'react-typist'
 
 import { media } from '../styles'
 
-const StyledTypist = styled(Typist)`
+const StyledTypist = styled.div`
   color: #fff;
   letter-spacing: 17px;
   max-width: 100%;
