@@ -40,7 +40,7 @@ class HeroText extends React.Component {
               .split(' ')
               .slice(1)
               .join(' ')}
-          </StyledTypist>
+          
         </Typist>
       )
     }
