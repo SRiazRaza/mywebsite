@@ -32,7 +32,6 @@ class HeroText extends React.Component {
     if (this.props.text) {
       return (
         <Typist>
-          <StyledTypist {...this.props}>
             <strong>
               {this.props.text.split(' ').slice(0, 1)}
               <br />
