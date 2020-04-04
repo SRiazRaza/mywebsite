@@ -51,6 +51,8 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "react-flickr-hero": "^1.4.0",
+    "react-typist": "^2.0.5",
     "remark-external-links": "^5.0.0",
     "styled-components": "^4.4.1",
     "typography": "^0.16.19"
