@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import Headera from '../components/Home/HeaderHome'
-import About from '../components/About/About'
+
 
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
