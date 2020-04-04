@@ -61,9 +61,7 @@ class About extends React.Component {
               </div>
             </div>
           </div>
-        //  <Stack />
-        //  <AllSocial />
-        </div>
+           </div>
       </Layout>
     )
   }
