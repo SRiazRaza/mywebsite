@@ -381,7 +381,7 @@ class Navbar extends React.Component {
             }}
             to="/"
           >
-           <Title>{title}</Title>
+           {title}
           </TitleWrapper>
           <div>
             <NavbarToggler onClick={this.handleToggle} id="navbarToggler" className={`${menuIsOpen ? 'open' : ''}`}>
