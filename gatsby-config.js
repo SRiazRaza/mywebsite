@@ -138,7 +138,8 @@ module.exports = {
         start_url: '/',
         background_color: '#1976d2',
         theme_color: '#1976d2',
-        display: 'minimal-ui'
+        display: 'minimal-ui',
+        icon: 'src/assets/images/logo.png'
       }
     },
     'gatsby-plugin-styled-components'

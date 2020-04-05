@@ -17,8 +17,8 @@ const StyledTypist = styled(Typist)`
   top: 50%;
   left: 50%;
   ${media.md`
-  left: 25%;
-  top: 40%;
+  left: 35%;
+  top: 30%;
 `}
   ${media.xs`
   left: 3%;
