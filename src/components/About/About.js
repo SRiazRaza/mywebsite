@@ -39,18 +39,13 @@ const HeroTextWrapper = styled.div`
 
 
 const ABOUT = ({ data }) => (
-  <div
-    style={{
-      background: '#f3f3f3',
-      backgroundImage: `url(${grain_image})`
-    }}
-  >
+ <div>
     <Container wrap="wrap" maxWidth="1100px" className="row" justifyContent="center">
       
       <MainInfoWrapper>
       <Header
             title="ABOUT"
-            description="Hi, I'm Dante Calderón, web developer. I like to build things with Nodejs and I work with React, Redux, Gatsby, Nextjs and the entire React ecosystem."
+            description={data.site.siteMetadata.description}
             color="#3384a0"
           />
       </MainInfoWrapper>
@@ -70,6 +65,7 @@ export default props => (
         site {
           siteMetadata {
       
+            description
             siteUrl
        
           }
