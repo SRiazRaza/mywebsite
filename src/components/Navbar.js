@@ -93,7 +93,7 @@ const Wrapper = styled.nav`
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     &:hover {
-      background: #f4f4f4;
+      background: transparent;
     }
   }
 
@@ -381,7 +381,7 @@ class Navbar extends React.Component {
             }}
             to="/"
           >
-           {title}
+          <Name />
           </TitleWrapper>
           <div>
             <NavbarToggler onClick={this.handleToggle} id="navbarToggler" className={`${menuIsOpen ? 'open' : ''}`}>
