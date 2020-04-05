@@ -36,8 +36,8 @@ const Image = styled.img`
 
 const Button = styled(AwesomeButton)``
 
-export default props => (
-  <Layout location={props.location} simple>
+const PageNotFound = () =>  (
+  <Layout>
     <Container>
       <Helmet>
         <title>{`404 Error`}</title>
@@ -48,3 +48,4 @@ export default props => (
     </Container>
   </Layout>
 )
+export default PageNotFound

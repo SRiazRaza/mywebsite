@@ -39,7 +39,11 @@ const HeroTextWrapper = styled.div`
 
 
 const ABOUT = ({ data }) => (
- <div>
+ <div
+ style={{
+  background: '#ffffff'
+ 
+}}>
     <Container wrap="wrap" maxWidth="1100px" className="row" justifyContent="center">
       
       <MainInfoWrapper>
