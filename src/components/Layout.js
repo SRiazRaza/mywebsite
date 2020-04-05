@@ -41,7 +41,7 @@ class Layout extends React.Component {
             <GlobalStyles />
             <Navbar active={active} />
             <div className="Dyamic-container">{this.props.children}</div>
-            {!simple && <Footer />}
+            {simple != '/404' && <Footer />}
           </>
         </ThemeProvider>
       </React.Fragment>
