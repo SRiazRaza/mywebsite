@@ -1,18 +1,12 @@
 import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
-import { AwesomeButton } from 'react-awesome-button'
+
 import styled from 'styled-components'
 import grain_image from '../../assets/images/grain.png'
 import { media } from '../../styles'
+import HeroText from '../heroText'
+import Header from '../Header'
 
-import Social from '../Social'
-import HeroText from '../components/heroText'
-import Header from '../components/Header'
-
-const ButtonAbout = styled(AwesomeButton)`
-  width: 141px !important;
-  margin-top: 34px !important;
-`
 
 const Container = styled.div`
   min-height: 600px;
@@ -31,18 +25,6 @@ const Container = styled.div`
   `};
 `
 
-const Title = styled.h1`
-  font-size: 12vw;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Gentium Book Basic';
-  color: #363636;
-  margin-bottom: 0;
-  ${media.sm`
-    font-size: 4.4rem;
-  `};
-`
 
 const MainInfoWrapper = styled.div`
   // justify-content: center;
@@ -55,16 +37,8 @@ const HeroTextWrapper = styled.div`
   padding: 0 20px;
 `
 
-const Subtitle = styled.h2`
-  font-size: 18px;
-  font-weight: 600;
-  margin: 10px 0 20px 0;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  color: #1976d2;
-`
 
-const HeaderHome = ({ data }) => (
+const ABOUT = ({ data }) => (
   <div
     style={{
       background: '#f3f3f3',
@@ -93,20 +67,15 @@ export default props => (
   <StaticQuery
     query={graphql`
       query {
-        avatar: imageSharp(fluid: { originalName: { regex: "/avatar.jpg/" } }) {
-          sizes(maxWidth: 360) {
-            ...GatsbyImageSharpSizes_tracedSVG
-          }
-        }
         site {
           siteMetadata {
-            title
+      
             siteUrl
-            subtitle
+       
           }
         }
       }
     `}
-    render={data => <HeaderHome data={data} {...props} />}
+    render={data => <ABOUT data={data} {...props} />}
   />
 )

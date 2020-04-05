@@ -381,6 +381,7 @@ class Navbar extends React.Component {
             }}
             to="/"
           >
+          <Title>{title}</Title>
           <Name />
           </TitleWrapper>
           <div>
