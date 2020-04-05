@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import Typist from 'react-typist'
+import { media } from '../utils/style'
 
-import { media } from '../styles'
 
-const StyledTypist = styled.div`
+const StyledTypist = styled(Typist)`
   color: #fff;
   letter-spacing: 17px;
   max-width: 100%;
@@ -26,12 +26,12 @@ const StyledTypist = styled.div`
   letter-spacing: 12px;
 `}
 `
-
 class HeroText extends React.Component {
   render() {
     if (this.props.text) {
       return (
         <Typist>
+           <StyledTypist {...this.props}>
             <strong>
               {this.props.text.split(' ').slice(0, 1)}
               <br />
@@ -40,7 +40,7 @@ class HeroText extends React.Component {
               .split(' ')
               .slice(1)
               .join(' ')}
-          
+          </StyledTypist>
         </Typist>
       )
     }
