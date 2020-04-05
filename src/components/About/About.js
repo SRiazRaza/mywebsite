@@ -2,7 +2,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 
 import styled from 'styled-components'
-import grain_image from '../../assets/images/grain.png'
+//import grain_image from '../../assets/images/grain.png'
 import { media } from '../../styles'
 import HeroText from '../heroText'
 import Header from '../Header'
@@ -12,7 +12,7 @@ const Container = styled.div`
   min-height: 600px;
   max-width: 1080px;
   display: grid;
-  padding-top: 100px;
+  padding-top: 80px;
   margin: 0 auto !important;
   grid-template-columns: minmax(min-content, 590px);
   justify-content: center;
