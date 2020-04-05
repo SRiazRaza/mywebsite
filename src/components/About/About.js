@@ -35,6 +35,7 @@ const MainInfoWrapper = styled.div`
 
 const HeroTextWrapper = styled.div`
   padding: 0 20px;
+  background: blue;
 `
 
 
@@ -54,7 +55,7 @@ const ABOUT = ({ data }) => (
           />
       </MainInfoWrapper>
 
-      <HeroTextWrapper className="col-xs-12 col-lg-7">
+      <HeroTextWrapper className="col-xs-12 col-lg-7" >
        <HeroText />
       </HeroTextWrapper>
 
