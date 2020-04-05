@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { media, mediaMax } from '../styles'
-
+import Name from './name'
 const icons = [
   <svg
     className="icon-item"
@@ -381,8 +381,7 @@ class Navbar extends React.Component {
             }}
             to="/"
           >
-            <Logo alt={subtitle} sizes={this.props.data.logo.sizes} />
-            <Title>{title}</Title>
+            <Title><Name /></Title>
           </TitleWrapper>
           <div>
             <NavbarToggler onClick={this.handleToggle} id="navbarToggler" className={`${menuIsOpen ? 'open' : ''}`}>
