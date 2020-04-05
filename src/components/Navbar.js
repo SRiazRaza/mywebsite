@@ -93,7 +93,7 @@ const Wrapper = styled.nav`
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     &:hover {
-      background: transparent;
+      background: #f4f4f4;
     }
   }
 
@@ -106,13 +106,13 @@ const Wrapper = styled.nav`
   width: 100%;
   z-index: 10;
   box-shadow: 0px 1px 0px 0px #f3f3f3;
-  background: white;
+  background: transparent;
   transition: 0.3s;
   &.inicio {
     background: transparent;
   }
   &.noTop {
-    background: white;
+    background: transparent;
   }
 `
 
