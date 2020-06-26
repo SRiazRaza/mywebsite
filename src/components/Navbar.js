@@ -2,8 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { media, mediaMax } from '../styles'
 
 const icons = [
@@ -86,16 +85,12 @@ const Wrapper = styled.nav`
     margin: 0;
     padding: 0;
   }
-
   a {
     text-decoration: none;
     color: #333;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    &:hover {
-      background: #f4f4f4;
-    }
   }
+  
 
   height: 61px;
   display: flex;
@@ -125,29 +120,94 @@ const NavbarContainer = styled.div`
   width: 1064px;
 `
 
-const Title = styled.p`
-  text-transform: capitalize;
+const Title = styled.a`
+  
+ text-transform: capitalize;
   font-weight: 900 !important;
   color: $navbar-link-color;
   opacity: 0.9;
+
+font-size: 20pt;
+font-family: 'Pacifico', cursive;
+
+margin: 20px 0;
+width: fit-content;
+white-space: nowrap;
+transition-property: transform;
+transition-duration: 0.8s;
+
+&:hover {
+  cursor: pointer;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif);
+  text-decoration: none;
+  
+}
+
+${props =>
+  props.dark &&
+  css`
+    color: #444;
+  `}
+
+${props =>
+  props.block &&
+  css`
+    display: block;
+  `}
+
+${props =>
+  props.small &&
+  css`
+    font-size: 1em;
+  `}
+
+${props =>
+  props.big &&
+  css`
+    font-size: 2em;
+  `}
 `
 
-const Logo = styled(Img)`
-  width: 32px;
-  height: 32px;
-  border-radius: 3px;
-  margin-right: 8px;
-`
 
 const TitleWrapper = styled(Link)`
   display: flex;
   align-items: center;
   border-radius: 3px;
   padding-right: 3px;
+  & ul {
+    width: 100%;
+    height: 62px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 13px;
+  }
+  & ul > li a,
+  & ul > li {
+    height: 62px;
+    font-size: 11px;
+    float: right;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .3s ease;
+  }
+  & ul > li a {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 32px;
+  }
   ${media.md`
 		flex-direction: row;
 		align-items: inherit;
-	`};
+  `};
+  
 `
 
 const Shadow = styled.div`
@@ -185,6 +245,13 @@ const NavbarNav = styled.ul`
   * {
     transition: all 0s !important;
   }
+  a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    
+  }
   transition: right 0.4s !important;
   right: -102%;
   &.open {
@@ -209,6 +276,9 @@ const NavbarNav = styled.ul`
     position: relative;
     height: auto;
   `}
+  &:hover {
+    background: #f4f4f4;
+  }
 `
 
 const Item = styled.li`
@@ -365,7 +435,7 @@ class Navbar extends React.Component {
   render() {
     const { menuIsOpen } = this.state
     const { active } = this.props
-    const { menu, title, subtitle } = this.props.data.site.siteMetadata
+    const { menu, title } = this.props.data.site.siteMetadata
     return (
       <Wrapper className={(active === '' ? 'inicio ' : '') + (menuIsOpen ? ' open ' : '') + (this.state.navbarIsTop ? '' : 'noTop')} id="Navbar">
         <Shadow
@@ -381,7 +451,7 @@ class Navbar extends React.Component {
             }}
             to="/"
           >
-            <Logo alt={subtitle} sizes={this.props.data.logo.sizes} />
+            
             <Title>{title}</Title>
           </TitleWrapper>
           <div>
@@ -423,7 +493,6 @@ export default props => (
         site {
           siteMetadata {
             title
-            subtitle
             menu {
               title
               id

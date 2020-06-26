@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   pathPrefix: `/`,
   siteMetadata: {
-    title: 'Syed Riaz Raza',
+    title: 'Riaz Raza',
     subtitle: 'Cognitive Software Engineer',
     description: `Hi, I'm Riaz Raza, Software Engineer. I am an analytical thinker who have a passion to get things done. A team player & an eager problem solver. A flexible & cognition type of person who is curious enough to learn things & improve them..`,
     siteUrl: 'https://riazraza.com',
@@ -28,6 +28,12 @@ module.exports = {
     ]
   },plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`pacifico:400`, `raleway:100,400,600,700`, "lato: 300,400,500"]
+      }
+    },
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-typography',

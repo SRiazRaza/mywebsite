@@ -1,11 +1,10 @@
 import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-
-import { media } from '../../utils/style'
+import { media } from '../../styles'
 import HeroText from '../heroText'
 import Header from '../Header'
-import Social from '../Social'
+
 
 const Container = styled.div`
   min-height: 600px;
@@ -31,18 +30,14 @@ const ABOUT = ({ data }) => (
  
 }}>
     <Container wrap="wrap" maxWidth="1100px" className="row" justifyContent="center">
-      
-     
-      <Header
+      <Header 
             title="ABOUT"
             description={data.site.siteMetadata.description}
             color="#3384a0"
           />
-  
-
+          <div>
        <HeroText />
-       <Social />
-
+       </div>
     </Container>
   </div>
 )

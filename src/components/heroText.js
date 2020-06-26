@@ -8,16 +8,16 @@ const StyledTypist = styled(Typist)`
   color: #3384A0;
   letter-spacing: 17px;
   max-width: 100%;
-  font-size: 72px;
+  font-size: 70px;
   line-height: 80px;
   font-weight: 100;
   text-transform: uppercase;
   font-family: 'Raleway';
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 55%;
   ${media.md`
-  left: 35%;
+  left: 55%;
   top: 30%;
 `}
   ${media.xs`
@@ -46,21 +46,29 @@ class HeroText extends React.Component {
     }
     return (
       <StyledTypist cursor={{ show: false }} {...this.props}>
-        <strong>I Make</strong> Websites
-        <Typist.Backspace count={9} delay={300} />
-        <span> Web Apps</span>
-        <Typist.Backspace count={9} delay={300} />
-        <span> Video Games</span>
-        <Typist.Backspace count={12} delay={300} />
-        <span> Poor Life Decisions</span>
+        <strong>I do</strong> BI Analytics
+        <Typist.Backspace count={17} delay={800} />
+        <strong>I Make</strong> Desktop App
+        <Typist.Backspace count={12} delay={600} />
+        <span> Industry Soft</span>
+        <Typist.Backspace count={14} delay={600} />
+        <span> IoT Devices</span>
         <Typist.Delay ms={100} />
         <span>.</span>
         <Typist.Delay ms={200} />
         <span>.</span>
         <Typist.Delay ms={300} />
         <span>.</span>
-        <Typist.Backspace count={29} delay={10} />
-        <strong>But Mostly Just</strong> Cool Web Stuff
+        <Typist.Backspace count={29} delay={600} />
+        <span> Sometimes Websites</span>
+        <Typist.Delay ms={100} />
+        <span>.</span>
+        <Typist.Delay ms={200} />
+        <span>.</span>
+        <Typist.Delay ms={300} />
+        <span>.</span>
+        <Typist.Backspace count={29} delay={100} />
+        <strong>But Mostly Just</strong> Cool Innovative Stuff
       </StyledTypist>
     )
   }

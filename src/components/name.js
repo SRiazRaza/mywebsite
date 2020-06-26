@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 
-const Base = styled.a`
+const Base = styled.p`
   font-size: 20pt;
   font-family: 'Pacifico', cursive;
   color: #fff;

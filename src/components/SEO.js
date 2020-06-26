@@ -31,8 +31,6 @@ export default class SEO extends PureComponent {
         sameAs: [
           'https://twitter.com/dantehemerson',
           'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-          'https://plus.google.com/u/0/101542534057875808813',
-          'https://www.instagram.com/dantehemerson',
           'https://www.github.com/dantehemerson',
           'https://www.linkedin.com/in/dantehemerson'
         ],
@@ -50,8 +48,6 @@ export default class SEO extends PureComponent {
           sameAs: [
             'https://twitter.com/dantehemerson',
             'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-            'https://plus.google.com/u/0/101542534057875808813',
-            'https://www.instagram.com/dantehemerson',
             'https://www.github.com/dantehemerson',
             'https://www.linkedin.com/in/dantehemerson'
           ],
@@ -73,14 +69,12 @@ export default class SEO extends PureComponent {
           sameAs: [
             'https://twitter.com/dantehemerson',
             'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-            'https://plus.google.com/u/0/101542534057875808813',
-            'https://www.instagram.com/dantehemerson',
             'https://www.github.com/dantehemerson',
             'https://www.linkedin.com/in/dantehemerson'
           ],
           url: url,
           name: title,
-          alternateName: `${url} | Dante Calderón`,
+          alternateName: `${url} | Syed Riaz Raza`,
           headline: title,
           image: {
             '@type': 'ImageObject',

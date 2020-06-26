@@ -6,8 +6,8 @@ import { media } from '../styles'
 const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
-  margin-top: ${props => (props.top ? props.top : '100px')};
-  margin-bottom: ${props => (props.bottom ? props.bottom : '10px')};
+  margin-top: ${props => (props.top ? props.top : '50px')};
+  margin-bottom: ${props => (props.bottom ? props.bottom : '150px')};
   max-width: 820px;
   padding: 0 13px;
 `
