@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { media } from '../../styles'
 import HeroText from '../heroText'
 import Header from '../Header'
-import grain_image from '../../assets/images/grain.png'
+
 
 const Container = styled.div`
   min-height: 600px;
@@ -26,8 +26,8 @@ const Container = styled.div`
 const ABOUT = ({ data }) => (
  <div
  style={{
-  background: '#f3f3f3',
-  backgroundImage: `url(${grain_image})`
+  background: '#ffffff',
+ 
  
 }}>
     <Container wrap="wrap" maxWidth="1100px" className="row" justifyContent="center">

@@ -17,6 +17,7 @@ module.exports = {
       { title: 'Github', link: 'https://github.com/SRiazRaza', icon: 'github' },
       { title: 'Twitter', link: 'https://twitter.com/S_Riaz_Raza', icon: 'twitter' },
       { title: 'Linkedin', link: 'https://www.linkedin.com/in/riaz-raza-a2002a181', icon: 'linkedin' },
+      { title: 'Medium', link: 'https://medium.com/@riazraza0', icon: 'medium' }
       
     ],
     menu: [
@@ -140,7 +141,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Riaz Raza',
-        short_name: 'RIaz',
+        short_name: 'Riaz',
         start_url: '/',
         background_color: '#1976d2',
         theme_color: '#1976d2',

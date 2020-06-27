@@ -29,10 +29,10 @@ export default class SEO extends PureComponent {
         '@context': 'http://schema.org',
         '@type': 'WebSite',
         sameAs: [
-          'https://twitter.com/dantehemerson',
-          'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-          'https://www.github.com/dantehemerson',
-          'https://www.linkedin.com/in/dantehemerson'
+          'https://twitter.com/S_Riaz_Raza',
+          'https://www.facebook.com/S.R.R.S.E.M.L.G',
+          'https://github.com/SRiazRaza',
+          'https://www.linkedin.com/in/riaz-raza-a2002a181'
         ],
         url: url,
         name: title,
@@ -46,10 +46,10 @@ export default class SEO extends PureComponent {
           '@context': 'http://schema.org',
           '@type': 'BreadcrumbList',
           sameAs: [
-            'https://twitter.com/dantehemerson',
-            'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-            'https://www.github.com/dantehemerson',
-            'https://www.linkedin.com/in/dantehemerson'
+            'https://twitter.com/S_Riaz_Raza',
+            'https://www.facebook.com/S.R.R.S.E.M.L.G',
+            'https://github.com/SRiazRaza',
+            'https://www.linkedin.com/in/riaz-raza-a2002a181'
           ],
           itemListElement: [
             {
@@ -67,10 +67,10 @@ export default class SEO extends PureComponent {
           '@context': 'http://schema.org',
           '@type': 'BlogPosting',
           sameAs: [
-            'https://twitter.com/dantehemerson',
-            'https://www.facebook.com/Dante-Calder%C3%B3n-600909820246917/',
-            'https://www.github.com/dantehemerson',
-            'https://www.linkedin.com/in/dantehemerson'
+            'https://twitter.com/S_Riaz_Raza',
+            'https://www.facebook.com/S.R.R.S.E.M.L.G',
+            'https://github.com/SRiazRaza',
+            'https://www.linkedin.com/in/riaz-raza-a2002a181'
           ],
           url: url,
           name: title,
