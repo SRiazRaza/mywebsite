@@ -100,8 +100,8 @@ export default class SEO extends PureComponent {
         <meta property="og:image" content={image} />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@dantehemerson" />
-        <meta name="twitter:creator" content="@dantehemerson" />
+        <meta name="twitter:site" content="@S_Riaz_Raza" />
+        <meta name="twitter:creator" content="@S_Riaz_Raza" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={image} />
