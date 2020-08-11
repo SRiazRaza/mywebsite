@@ -122,14 +122,14 @@ const NavbarContainer = styled.div`
 
 const Title = styled.a`
   
- text-transform: capitalize;
+ /*text-transform: capitalize;
   font-weight: 900 !important;
   color: $navbar-link-color;
-  opacity: 0.9;
+  opacity: 0.9;*/
 
 font-size: 20pt;
 font-family: 'Pacifico', cursive;
-
+//background-attachment: fixed;
 margin: 20px 0;
 width: fit-content;
 white-space: nowrap;
@@ -141,7 +141,11 @@ transition-duration: 0.8s;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-image: url(https://media.giphy.com/media/l41YcGT5ShJa0nCM0/giphy.gif);
+  // original size 376px 
+  background-size: 76px 76px;
   text-decoration: none;
+  -webkit-transform:rotate(360deg);
+  //background-attachment: fixed;
   
 }
 
@@ -176,6 +180,7 @@ const TitleWrapper = styled(Link)`
   align-items: center;
   border-radius: 3px;
   padding-right: 3px;
+  //background-attachment: fixed;
   & ul {
     width: 100%;
     height: 62px;

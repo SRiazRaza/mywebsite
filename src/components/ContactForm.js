@@ -64,7 +64,7 @@ class ContactForm extends React.Component {
           }
         })
       })
-      .catch(error => alert('Error sending the messag'))
+      .catch(error => alert('Error sending the message'))
     e.preventDefault()
   }
 
