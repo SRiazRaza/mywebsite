@@ -11,7 +11,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gh-pages -d src",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -87,6 +87,7 @@
     "developer"
   ],
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "^1.17.1"
   },
   "repository": {
