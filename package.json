@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "author": "Riaz Raza <riazraza0@gmail.com>",
   "license": "MIT",
-
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
