@@ -4,13 +4,14 @@
   "version": "0.1.0",
   "author": "Riaz Raza <riazraza0@gmail.com>",
   "license": "MIT",
+  "homepage": "https://SRiazRaza.github.io/mywebsite",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build ",
+    "deploy": "gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
