@@ -22,7 +22,7 @@ module.exports = {
     ],
     menu: [
       { title: 'Home', id: '', to: '/', icon: 'home' },
-      { title: 'Blog', id: 'Blog', to: 'https://medium.com/@riazraza0', icon: 'home' },
+      { title: 'Blog', id: 'Blog', link: 'https://medium.com/@riazraza0', icon: 'home' },
       { title: 'About', id: 'About', to: '/about', icon: 'home' },
       { title: 'Portfolio', id: 'Portfolio', to: '/portfolio', icon: 'home' },
       { title: 'Contact', id: 'Contact', to: '/contact', icon: 'home' }
@@ -64,6 +64,18 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/src/pages/`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-175307357-1",
+        head: false,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'riazraza.me',
+        cookieName: 'SRiazRaza',
+        cookieExpires: 86400
       }
     },
     {
