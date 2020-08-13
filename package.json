@@ -58,6 +58,7 @@
     "react-helmet": "^5.2.1",
     "react-slick": "^0.24.0",
     "react-typography": "^0.16.19",
+    "react-typist": "^2.0.5",
     "styled-components": "^4.2.1",
     "sweetalert2": "^8.11.7",
     "typography": "^0.16.19"
