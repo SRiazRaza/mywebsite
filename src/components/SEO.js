@@ -15,8 +15,8 @@ export default class SEO extends PureComponent {
 
   static defaultProps = {
     title: 'Riaz Raza',
-    image: `https://dantecalderon.com${avatar}`,
-    url: 'https://dantecalderon.com/',
+    image: `https://riazraza.me${avatar}`,
+    url: 'https://riazraza.me/',
     description: 'Syed Riaz Raza - Cognitive Software Engineer',
     isPost: false
   }

@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dantehemerson/dantecalderon.com
+  repo: sriazraza/mywebsite
 
 media_folder: static/img
 public_folder: /img
