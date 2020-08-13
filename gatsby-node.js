@@ -25,8 +25,8 @@ const getPrefix = model => {
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return new Promise((resolve, reject) => {
-    const projectTemplate = require.resolve('./src/templates/ProjectTemplate.js')
-  //  const postTemplate = require.resolve('./src/templates/PostTemplate.js')
+    const projectTemplate = path.resolve('./src/templates/ProjectTemplate.js')
+    const postTemplate = path.resolve('./src/templates/PostTemplate.js')
     resolve(
       graphql(`
         {
