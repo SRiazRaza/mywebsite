@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "edcfc14aa823efb6aa02";
+/******/ 	var hotCurrentHash = "036fcc9fc7a83b7cfe7f";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2469,7 +2469,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 // extracted by mini-css-extract-plugin
     if(true) {
-      // 1597301523897
+      // 1597302150376
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.i, {"hmr":true,"locals":false});
       module.hot.dispose(cssReload);
       module.hot.accept(undefined, cssReload);
