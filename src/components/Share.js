@@ -4,7 +4,7 @@ export default props => (
   <div className={`Share ` + (props.fixed ? 'Share--fixed' : '') + (props.show ? '' : ' hide')}>
     <a
       className="Share__iconwrapper twitter"
-      href={`https://twitter.com/intent/tweet?text=${props.title} by Dante Calderón(@dantehemerson) ${props.url}`}
+      href={`https://twitter.com/intent/tweet?text=${props.title} by Riaz Raza(@S_Riaz_Raza) ${props.url}`}
       target="_blank"
       rel="noopener noreferrer"
       data-size="large"
@@ -13,10 +13,7 @@ export default props => (
     </a>
     <a
       className="Share__iconwrapper facebook"
-      href={`https://www.facebook.com/sharer/sharer.php?
-				app_id=2209722672595950
-				&sdk=joey
-				&u=${props.url}`}
+      href={`https://www.facebook.com/sharer/sharer.php?app_id=325067751967582&display=page&u=${props.url}`}
       target="_blank"
       rel="noopener noreferrer"
       title={props.title}

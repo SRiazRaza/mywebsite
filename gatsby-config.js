@@ -22,7 +22,7 @@ module.exports = {
     ],
     menu: [
       { title: 'Home', id: '', to: '/', icon: 'home' },
-      { title: 'Blog', id: 'Blog', link: 'https://medium.com/@riazraza0', icon: 'home' },
+     // { title: 'Blog', id: 'Blog', to: '/blog', icon: 'home' },
       { title: 'About', id: 'About', to: '/about', icon: 'home' },
       { title: 'Portfolio', id: 'Portfolio', to: '/portfolio', icon: 'home' },
       { title: 'Contact', id: 'Contact', to: '/contact', icon: 'home' }
