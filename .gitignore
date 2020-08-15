@@ -1,8 +1,9 @@
 # Project dependencies
 .cache
+.vscode
 node_modules
 yarn-error.log
 
 # Build directory
-public/
+public
 .DS_Store

@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 //import Stack from '../components/Stack'
 
 //import AllSocial from '../components/About/AllSocial'
-import AboutNew from '../components/About/ABOUT'
+import AboutNew from '../components/About'
 import { pages } from '../utils'
 
 
