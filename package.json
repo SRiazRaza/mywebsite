@@ -19,6 +19,7 @@
     "bluebird": "^3.5.5",
     "gatsby": "^2.8.2",
     "gatsby-image": "^2.1.2",
+    "gatsby-plugin-advanced-sitemap": "^1.5.5",
     "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-feed": "^2.2.2",
     "gatsby-plugin-google-analytics": "^2.0.20",
@@ -57,8 +58,8 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-slick": "^0.24.0",
-    "react-typography": "^0.16.19",
     "react-typist": "^2.0.5",
+    "react-typography": "^0.16.19",
     "styled-components": "^4.2.1",
     "sweetalert2": "^8.11.7",
     "typography": "^0.16.19"

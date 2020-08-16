@@ -18,7 +18,7 @@ class Portfolio extends React.Component {
           title="Portfolio"
           description={[
             'These are some of my projects, to see more projects check my ',
-            <a key="link" target="__blank" href="https://github.com/sriazraza">
+            <a key="link" target="__blank" href="https://github.com/SRiazRaza">
               Github
             </a>,
             '.'

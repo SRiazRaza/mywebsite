@@ -11,8 +11,10 @@ images:
   - description: About page
     image: /img/riazraza-about.png
   - description: Contact Page
+    image: /img/riazraza-contact.png
+  - description: Portfolio Page
     image: /img/riazraza-portfolio.png
-  - description: 'Skills Section'
+  - description: Skills Section
     image: /img/riazraza-about-skills.png
   - description: Project page
     image: /img/riazraza-project.png

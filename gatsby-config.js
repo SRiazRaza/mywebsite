@@ -13,6 +13,7 @@ module.exports = {
     description: `Hi, I'm Riaz Raza, Software Engineer. I am an analytical thinker who have a passion to get things done. A team player & an eager problem solver. A flexible & cognition type of person who is curious enough to learn things & improve them..`,
     siteUrl: 'https://riazraza.me',
     disqusShortname: 'riazraza',
+    twitterUsername: "@S_Riaz_Raza",
     social: [
       { title: 'Github', link: 'https://github.com/SRiazRaza', icon: 'github' },
       { title: 'Twitter', link: 'https://twitter.com/S_Riaz_Raza', icon: 'twitter' },
@@ -28,6 +29,7 @@ module.exports = {
       { title: 'Contact', id: 'Contact', to: '/contact', icon: 'home' }
     ]
   },plugins: [
+    `gatsby-plugin-advanced-sitemap`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-fonts`,

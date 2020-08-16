@@ -92,7 +92,7 @@ export default class SEO extends PureComponent {
         <meta name="image" content={image} />
         <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
 
-        <meta property="fb:app_id" content="302184056577324" />
+        <meta property="fb:app_id" content="325067751967582" />
         <meta property="og:url" content={url} />
         <meta property="og:type" content={isPost ? 'article' : 'website'} />
         <meta property="og:title" content={title} />
