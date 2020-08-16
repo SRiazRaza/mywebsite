@@ -4,7 +4,7 @@ export default props => (
   <div className={`Share ` + (props.fixed ? 'Share--fixed' : '') + (props.show ? '' : ' hide')}>
     <a
       className="Share__iconwrapper twitter"
-      href={`https://twitter.com/intent/tweet?text=${props.title} by Riaz Raza(@S_Riaz_Raza) ${props.url}`}
+      href={`https://twitter.com//intent/tweet?text=${props.title} by Riaz Raza(@S_Riaz_Raza) &url= ${props.url} &hashtags=Portfolio,Developer,SoftwareEngineer`}
       target="_blank"
       rel="noopener noreferrer"
       data-size="large"
