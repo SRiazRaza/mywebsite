@@ -10,7 +10,7 @@ images:
     image: /img/smart-rcc-home.PNG
   - description: Bill Page
     image: /img/smart-rcc-bill.PNG
-date: '2018-02-20T22:26:20-05:00'
+date: '2018-07-20T22:26:20.000Z'
 finished: true
 published: true
 style: doble-column

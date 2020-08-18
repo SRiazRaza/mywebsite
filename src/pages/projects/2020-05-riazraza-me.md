@@ -19,7 +19,7 @@ images:
   - description: Project page
     image: /img/riazraza-project.png
  
-date: 2020-03-06T20:32:07.279Z
+date: '2020-05-01T08:05:07.000Z'
 finished: true
 published: true
 style: default
