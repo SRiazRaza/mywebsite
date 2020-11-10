@@ -30,6 +30,7 @@ class Contact extends React.Component {
               ':'
             ]}
             color="#61b865"
+            top="50px"
             bottom="24px"
           />
           <Social />

@@ -2,7 +2,7 @@
 model: project
 title: Digi PEL
 subtitle: Furnace Control System for PEL named as Digi PEL.
-description: Digi PEL control, regulate machine energy functions and thermal cycles.
+description: Digi PEL control, regulate machine energy functions and thermal cycles (Design for Touch-Mode).
 path: digi-pel
 thumbnail: /img/digi-pel-main.PNG
 images:

@@ -7,10 +7,13 @@ import Header from '../Header'
 
 
 const Container = styled.div`
-  min-height: 600px;
+  min-height: 500px;
   max-width: 1080px;
+
   display: grid;
   padding-top: 100px;
+  padding-bottom: 100px;
+  
   margin: 0 auto !important;
   grid-template-columns: minmax(min-content, 590px);
   justify-content: center;
@@ -36,9 +39,9 @@ const ABOUT = ({ data }) => (
             description={data.site.siteMetadata.description}
             color="#3384a0"
           />
-          <div>
+      
        <HeroText />
-       </div>
+      
     </Container>
   </div>
 )

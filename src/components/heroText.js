@@ -7,23 +7,33 @@ import { media } from '../utils/style'
 const StyledTypist = styled(Typist)`
   color: #3384A0;
   letter-spacing: 17px;
+  
   max-width: 100%;
+  min-height: 320px;
+  
   font-size: 70px;
   line-height: 80px;
+
+  margin-left:auto;
+  margin-right:auto;
+
   font-weight: 100;
   text-transform: uppercase;
   font-family: 'Raleway';
-  position: absolute;
+  //position: absolute;
+  // Hello
   top: 30%;
   left: 55%;
   ${media.md`
   left: 55%;
   top: 30%;
+  font-size: 50px;
 `}
   ${media.xs`
   left: 3%;
   top: 15%;
   letter-spacing: 12px;
+  font-size: 40px;
 `}
 `
 class HeroText extends React.Component {
