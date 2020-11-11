@@ -4,10 +4,10 @@ title: NN Premium Water
 subtitle: Automate Water Supply Deliveries
 description: Automate Water Supply Deliveries. Manage & Observe 
 path: NN-Premium-Water
-thumbnail: /img/nn-premium-home.PNG
+thumbnail: /img/nn-premium-main.PNG
 images:
   - description: Home page
-    image: /img/nn-premium-home.PNG
+    image: /img/nn-premium-main.PNG
  
 date: '2020-11-01T08:05:07.000Z'
 finished: true

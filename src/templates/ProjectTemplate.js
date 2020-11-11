@@ -76,7 +76,7 @@ export default class ProjectTemplate extends React.Component {
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
-    avatar: imageSharp(fluid: { originalName: { regex: "/avatar2.jpeg/" } }) {
+    avatar: imageSharp(fluid: { originalName: { regex: "/avatar_submain.jpeg/" } }) {
       sizes(maxWidth: 720) {
         ...GatsbyImageSharpSizes_tracedSVG
       }
