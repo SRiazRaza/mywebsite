@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
             '.'
           ]}
          
-          top="40px"
+          
     
         />
         <List posts={posts} />
