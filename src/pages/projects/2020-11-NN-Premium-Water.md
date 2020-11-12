@@ -2,7 +2,7 @@
 model: project
 title: NN Premium Water
 subtitle: Automate Water Supply Deliveries
-description: Automate Water Supply Deliveries. Manage & Observe 
+description: Automate Water Supply Deliveries. Manage & Observe Supply Chain.
 path: NN-Premium-Water
 thumbnail: /img/nn-premium-main.PNG
 images:
@@ -15,13 +15,16 @@ published: true
 style: default
 tags:
   - Desktop Application
-  - Industry Software
-  - Industry 4.0 
+  - Industrial Software
+  - Supply Chain
+  - Payroll
 roles:
   - Software Developer
 stack:
   - C#
   - MySQL
+  - DotNETReactor
+  - XML
 
 client: NN Premium Water Pvt Limited
 repository: 'https://github.com/SRiazRaza/'
@@ -29,4 +32,4 @@ licence: MIT
 website: 'https://github.com/SRiazRaza/'
 ---
 Code not available at repository.
-Digi PEL control, regulate machine energy functions and thermal cycles.
+Automate Water Supply Deliveries. Manage & Observe Supply Chain.

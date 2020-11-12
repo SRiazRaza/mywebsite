@@ -14,6 +14,11 @@ class Portfolio extends React.Component {
     return (
       <Layout location={this.props.location} active={pages.portfolio}>
         <SEO title="Portfolio" url={`${siteUrl}/portfolio`} />
+        <div
+          style={{
+            height: '10px'
+          }}
+        />
         <Header
           title="Portfolio"
           description={[
@@ -24,6 +29,7 @@ class Portfolio extends React.Component {
             '.'
           ]}
          
+          top="40px"
     
         />
         <List posts={posts} />

@@ -22,6 +22,11 @@ class Contact extends React.Component {
       <Layout location={this.props.location} active={pages.contact}>
         <div className="Contact">
           <SEO title="Contact" url={`${siteUrl}/contact`} />
+          <div
+          style={{
+            height: '10px'
+          }}
+        />
           <Header
             title="Contact"
             description={[
