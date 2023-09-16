@@ -14,12 +14,9 @@ images:
     image: /img/riazraza-contact.png
   - description: Portfolio Page
     image: /img/riazraza-portfolio.png
-  - description: Skills Section
-    image: /img/riazraza-about-skills.png
   - description: Project page
     image: /img/riazraza-project.png
- 
-date: '2020-05-01T08:05:07.000Z'
+date: 2020-05-01T08:05:07.000Z
 finished: true
 published: true
 style: default
@@ -36,8 +33,8 @@ stack:
   - GraphQL
   - Github
 client: Personal
-repository: 'https://github.com/SRiazRaza/mywebsite'
+repository: https://github.com/SRiazRaza/mywebsite
 licence: MIT
-website: 'https://riazraza.me'
+website: https://riazraza.me
 ---
 My website is awesome
