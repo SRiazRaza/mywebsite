@@ -23,7 +23,7 @@ module.exports = {
     ],
     menu: [
       { title: 'Home', id: '', to: '/', icon: 'home' },
-     // { title: 'Blog', id: 'Blog', to: '/blog', icon: 'home' },
+      { title: 'Blog', id: 'Blog', to: '/blog', icon: 'home' },
       { title: 'About', id: 'About', to: '/about', icon: 'home' },
       { title: 'Portfolio', id: 'Portfolio', to: '/portfolio', icon: 'home' },
       { title: 'Contact', id: 'Contact', to: '/contact', icon: 'home' }
@@ -132,15 +132,6 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-netlify',
-      options: {
-        mergeSecurityHeaders: true,
-        mergeLinkHeaders: true,
-        mergeCachingHeaders: true,
-        generateMatchPathRewrites: true
       }
     },
     {

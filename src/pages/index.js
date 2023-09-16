@@ -15,7 +15,7 @@ class Index extends React.Component {
     return (
      <Layout location={this.props.location} active={pages.home}>
         <SEO title="" url={siteUrl} />
-        //<Headera />
+        <Headera />
         <div
           style={{
             background: '#22292c',
