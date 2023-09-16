@@ -17,7 +17,7 @@ module.exports = {
     social: [
       { title: 'Github', link: 'https://github.com/SRiazRaza', icon: 'github' },
       { title: 'Twitter', link: 'https://twitter.com/S_Riaz_Raza', icon: 'twitter' },
-      { title: 'Linkedin', link: 'https://www.linkedin.com/in/riaz-raza-a2002a181', icon: 'linkedin' },
+      { title: 'Linkedin', link: 'https://www.linkedin.com/in/syed-riaz-raza-a2002a181', icon: 'linkedin' },
       { title: 'Medium', link: 'https://medium.com/@riazraza0', icon: 'medium' }
       
     ],

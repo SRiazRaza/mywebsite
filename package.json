@@ -5,10 +5,10 @@
   "author": "Riaz Raza <riazraza0@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
+    "develop": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "set SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
@@ -57,6 +57,7 @@
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "react-scripts": "5.0.0",
     "react-slick": "^0.24.0",
     "react-typist": "^2.0.5",
     "react-typography": "^0.16.19",
