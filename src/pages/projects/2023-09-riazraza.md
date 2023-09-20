@@ -1,6 +1,6 @@
 ---
 model: project
-title: riazraza
+title: riazrazaoo
 subtitle: My webpage
 description: Personal-website
 path: riazraza-me
@@ -16,7 +16,7 @@ images:
     image: /img/riazraza-portfolio.png
   - description: Project page
     image: /img/riazraza-project.png
-date: 2020-05-01T08:05:07.000Z
+date: 2023-09-16T13:02:11.345Z
 finished: true
 published: true
 style: default

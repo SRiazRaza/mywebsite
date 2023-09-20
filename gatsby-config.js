@@ -23,7 +23,7 @@ module.exports = {
     ],
     menu: [
       { title: 'Home', id: '', to: '/', icon: 'home' },
-     // { title: 'Blog', id: 'Blog', to: '/blog', icon: 'home' },
+      { title: 'Blog', id: 'Blog', to: '/blog', icon: 'home' },
       { title: 'About', id: 'About', to: '/about', icon: 'home' },
       { title: 'Portfolio', id: 'Portfolio', to: '/portfolio', icon: 'home' },
       { title: 'Contact', id: 'Contact', to: '/contact', icon: 'home' }
@@ -130,19 +130,20 @@ module.exports = {
     'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`
-      }
+    options: {
+      modulePath: `${__dirname}/src/cms/cms.js`,
+      manualInit: true,
+      enableIdentityWidget: false,
+      customizeWebpackConfig: (config, { plugins }) => {
+        config.plugins.push(
+          plugins.define({
+            __MANIFEST_PLUGIN_HAS_LOCALISATION__: JSON.stringify('false'),
+          }),
+        );
+      },
     },
-    {
-      resolve: 'gatsby-plugin-netlify',
-      options: {
-        mergeSecurityHeaders: true,
-        mergeLinkHeaders: true,
-        mergeCachingHeaders: true,
-        generateMatchPathRewrites: true
-      }
     },
+   
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
